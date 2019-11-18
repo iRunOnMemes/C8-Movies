@@ -17,8 +17,11 @@ public class MovieListAL
      */
     public MovieListAL(Movie[] movies)
     {
-
+        for(int i= 0; i<movies.length; i++){
+              
+               pool.add[movies[i]];
     }
+}
 
     public ArrayList<Movie> getPool()
     {
